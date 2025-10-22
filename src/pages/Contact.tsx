@@ -1,10 +1,8 @@
 import PageLayout from "@/components/PageLayout";
 import { Button } from "@/components/ui/button";
 import { Mail, Linkedin, Send } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <PageLayout>
+  return <PageLayout>
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="mb-12 animate-fade-in-up">
@@ -34,23 +32,10 @@ const Contact = () => {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="mailto:mmy.wu@mail.utoronto.ca">
-                  <Button 
-                    size="lg" 
-                    className="w-full sm:w-auto rounded-full px-8 shadow-medium group"
-                  >
-                    <Mail className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                    Email Me
-                  </Button>
+                  
                 </a>
                 <a href="https://linkedin.com/in/meganmywu" target="_blank" rel="noopener noreferrer">
-                  <Button 
-                    size="lg" 
-                    variant="outline" 
-                    className="w-full sm:w-auto rounded-full px-8 group"
-                  >
-                    <Linkedin className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                    LinkedIn
-                  </Button>
+                  
                 </a>
               </div>
             </div>
@@ -62,10 +47,7 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="text-xl font-serif font-bold mb-2">Email</h3>
-                <a 
-                  href="mailto:mmy.wu@mail.utoronto.ca"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
+                <a href="mailto:mmy.wu@mail.utoronto.ca" className="text-muted-foreground hover:text-primary transition-colors">
                   mmy.wu@mail.utoronto.ca
                 </a>
               </div>
@@ -75,12 +57,7 @@ const Contact = () => {
                   <Linkedin className="h-6 w-6 text-secondary-foreground" />
                 </div>
                 <h3 className="text-xl font-serif font-bold mb-2">LinkedIn</h3>
-                <a 
-                  href="https://linkedin.com/in/meganmywu"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
+                <a href="https://linkedin.com/in/meganmywu" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   linkedin.com/in/meganmywu
                 </a>
               </div>
@@ -88,8 +65,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </PageLayout>
-  );
+    </PageLayout>;
 };
-
 export default Contact;
