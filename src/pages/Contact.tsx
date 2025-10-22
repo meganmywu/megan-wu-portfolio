@@ -21,11 +21,11 @@ const Contact = () => {
             <div className="bg-gradient-warm rounded-3xl p-8 sm:p-12 shadow-medium">
               <div className="flex justify-center mb-8">
                 <div className="w-20 h-20 rounded-3xl bg-card flex items-center justify-center shadow-soft">
-                  <Send className="h-10 w-10 text-primary" />
+                  <Send className="h-10 w-10 text-primary translate-x-[1px] translate-y-[-1px]" />
                 </div>
               </div>
               
-              <p className="text-lg text-center mb-8 text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-lg text-center mb-4 text-muted-foreground max-w-2xl mx-auto">
                 If you're a recruiter, hiring manager, or collaborator interested in digital health, 
                 data, or equity-driven innovation, I'd love to connect.
               </p>
