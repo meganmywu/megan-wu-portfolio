@@ -18,7 +18,7 @@ const Contact = () => {
 
           <div className="animate-fade-in space-y-6">
             {/* Main Contact Card */}
-            <div className="bg-gradient-warm rounded-3xl p-8 sm:p-12 shadow-medium">
+            <div className="bg-gradient-warm rounded-3xl p-8 sm:p-12 shadow-medium hover-lift">
               <div className="flex justify-center mb-8">
                 <div className="w-20 h-20 rounded-3xl bg-card grid place-items-center shadow-soft">
                   <Send className="block h-10 w-10 text-primary origin-center -translate-x-[1px] translate-y-[0.5px]" />
