@@ -21,7 +21,7 @@ const Contact = () => {
             <div className="bg-gradient-warm rounded-3xl p-8 sm:p-12 shadow-medium">
               <div className="flex justify-center mb-8">
                 <div className="w-20 h-20 rounded-3xl bg-card flex items-center justify-center shadow-soft">
-                  <Send className="h-10 w-10 text-primary translate-x-[1px] translate-y-[-1px]" />
+                  <Send className="h-10 w-10 text-primary translate-x-[2px] translate-y-[2px]" />
                 </div>
               </div>
               
