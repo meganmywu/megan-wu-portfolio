@@ -1,0 +1,17 @@
+import { ReactNode } from "react";
+import Navigation from "./Navigation";
+
+interface PageLayoutProps {
+  children: ReactNode;
+}
+
+const PageLayout = ({ children }: PageLayoutProps) => {
+  return (
+    <div className="min-h-screen bg-gradient-subtle">
+      <Navigation />
+      <main className="pt-16">{children}</main>
+    </div>
+  );
+};
+
+export default PageLayout;
