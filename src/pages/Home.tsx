@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { ArrowRight, Sparkles, Target, Shield, MessageCircle } from "lucide-react";
+import { ArrowRight, Sparkles, Target, Star, MessageCircle } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
 
 const Home = () => {
@@ -81,7 +81,7 @@ const Home = () => {
         <div className="max-w-4xl mx-auto">
           <div className="flex items-start gap-6 mb-6">
             <div className="flex-shrink-0 w-12 h-12 rounded-2xl bg-primary-light flex items-center justify-center">
-              <Shield className="h-6 w-6 text-primary" />
+              <Star className="h-6 w-6 text-primary" />
             </div>
             <div>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold mb-4">
