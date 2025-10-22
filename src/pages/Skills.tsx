@@ -10,11 +10,12 @@ const skillCategories = [
     color: "bg-primary-light",
     iconColor: "text-primary",
     skills: [
-      "Electronic Medical Records (EMR): Accuro EMR",
-      "Geographic Information Systems: ArcGIS Pro, GeoDa",
       "Data & Analysis: SAS, R, Microsoft Excel",
       "Workflow & Process Design: BPMN notation",
-      "Tools & Platforms: Microsoft Office, Google Workspace, Zoom, Slack, Social Media"
+      "Electronic Medical Records (EMR): Accuro EMR",
+      "Geographic Information Systems: ArcGIS Pro, GeoDa",
+      "Tools & Platforms: Microsoft Office, Google Workspace, Zoom, Slack, Social Media",
+      "Web Design Tools: Lovable (VibeCoding), Canva"
     ]
   },
   {
@@ -48,7 +49,7 @@ const skillCategories = [
     iconColor: "text-accent-foreground",
     skills: [
       "English (Fluent)",
-      "Cantonese (Fluent)"
+      "Cantonese (Fluent – Spoken only)"
     ]
   }
 ];

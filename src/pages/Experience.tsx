@@ -5,19 +5,19 @@ const experiences = [
   {
     title: "Medical Receptionist",
     organization: "Whole Health Medical Center",
-    period: "Sep 2025–Present",
+    period: "Sep 2025 – Present",
     description: "Serve as the first point of contact for patients, providing a professional and welcoming experience at the front desk. Manage scheduling and registration through Accuro EMR, support patient record updates, and handle incoming calls and emails with efficiency and discretion. Assist with administrative tasks such as filing, data entry, and appointment coordination, contributing to smooth clinic operations. This role highlights my organizational skills, communication abilities, and adaptability in a fast-paced healthcare environment."
   },
   {
     title: "Volunteer Coordinator Assistant",
     organization: "Shepherd Village",
-    period: "June–Aug 2025",
+    period: "June – Aug 2025",
     description: "Supported volunteer recruitment, training, and scheduling using Vome software and Excel. Coordinated events and monthly sessions to improve engagement and streamlined administrative processes through data entry, reporting, and survey analysis. Strengthened community programs by improving volunteer communications and evaluation."
   },
   {
     title: "Research Assistant",
     organization: "University of Waterloo",
-    period: "Feb–Dec 2024",
+    period: "Feb – Dec 2024",
     description: "Contributed to a PhD thesis project focused on analyzing the impact of nutritional policies on sugar levels in beverages across multiple countries. Collected data through web scraping and aggregation from global manufacturers. Enabled comprehensive health policy analysis while sharpening technical skills in data management."
   },
   {
@@ -29,19 +29,19 @@ const experiences = [
   {
     title: "Specialties & DEX Coordinator",
     organization: "Bayshore Specialty Rx",
-    period: "May–Aug 2022",
+    period: "May – Aug 2022",
     description: "Coordinated operations across specialties and distribution teams to ensure timely delivery of over 400 daily medications. Maintained quality control, verified prescription accuracy, and supported pharmaceutical logistics. This role reinforced attention to detail, patient safety, and reliable health service delivery."
   },
   {
     title: "Front Desk Receptionist",
     organization: "Epic Sports Badminton Club",
-    period: "Sep 2020–Aug 2021",
+    period: "Sep 2020 – Aug 2021",
     description: "Managed front-desk operations, including booking courts and scheduling training, to deliver smooth customer experiences. Oversaw the pro shop and handled transactions with accurate records—strengthening service reliability and day-to-day operational flow."
   },
   {
     title: "Nurse Aid",
     organization: "Sienna Senior Living",
-    period: "Nov 2019–Mar 2020",
+    period: "Nov 2019 – Mar 2020",
     description: "Supported the Director of Care in delivering resident care and facility operations. Assisted with archiving, documentation, and activity facilitation to promote social and physical wellbeing for residents. Demonstrated compassion, organization, and commitment to improving the daily lives of older adults."
   }
 ];
