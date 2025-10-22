@@ -118,7 +118,7 @@ const Home = () => {
                 Reach Out
               </Button>
             </Link>
-            <Link to="/projects">
+            <Link to="/about">
               <Button size="lg" variant="outline" className="rounded-full px-8">
                 Explore More
               </Button>
