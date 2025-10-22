@@ -74,7 +74,7 @@ const Experience = () => {
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   {/* Timeline dot */}
-                  <div className="hidden md:flex absolute -left-[4.25rem] top-8 w-12 h-12 rounded-2xl bg-primary-light items-center justify-center">
+                  <div className="hidden md:flex absolute -left-16 top-8 w-12 h-12 rounded-2xl bg-primary-light items-center justify-center">
                     <Briefcase className="h-6 w-6 text-primary" />
                   </div>
 
