@@ -12,7 +12,7 @@ const Home = () => {
         <div className="relative max-w-5xl mx-auto text-center animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-light text-primary text-sm font-medium mb-6">
             <Sparkles className="h-4 w-4" />
-            <span>Health Informatics Portfolio</span>
+            <span>Bridging Health and Technology</span>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-serif font-bold mb-6 text-balance">
             Helping Healthcare Make More{" "}
