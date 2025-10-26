@@ -102,25 +102,25 @@ const Experience = () => {
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   {/* Timeline dot */}
-                  <div className="hidden md:flex absolute -left-16 top-8 w-12 h-12 rounded-2xl bg-primary-light items-center justify-center">
-                    <Briefcase className="h-6 w-6 text-primary" />
+                  <div className="hidden md:flex absolute -left-16 top-8 w-12 h-12 rounded-2xl bg-gradient-primary items-center justify-center">
+                    <Briefcase className="h-6 w-6 text-white" />
                   </div>
 
                   <div className="flex items-start gap-4 mb-2">
-                    <div className="md:hidden flex-shrink-0 w-10 h-10 rounded-xl bg-primary-light flex items-center justify-center">
-                      <Briefcase className="h-5 w-5 text-primary" />
+                    <div className="md:hidden flex-shrink-0 w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center">
+                      <Briefcase className="h-5 w-5 text-white" />
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-serif font-bold mb-1">{exp.title}</h3>
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mb-4">
-                        <span className="text-primary font-medium">{exp.organization}</span>
+                        <span className="gradient-text font-medium">{exp.organization}</span>
                         <span className="hidden sm:inline text-muted-foreground">•</span>
                         <span className="text-muted-foreground text-sm">{exp.period}</span>
                       </div>
                       <ul className="space-y-2 text-muted-foreground">
                         {exp.bulletPoints.map((point, pointIndex) => (
                           <li key={pointIndex} className="flex items-baseline gap-2">
-                            <span className="text-primary">•</span>
+                            <span className="gradient-text">•</span>
                             <span className="leading-relaxed">{point}</span>
                           </li>
                         ))}
