@@ -4,22 +4,52 @@ import { Code, TrendingUp, Users, Languages } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const skills = {
-  technical: [
-    { name: "SAS" },
-    { name: "R" },
-    { name: "Excel" },
-    { name: "BPMN" },
-    { name: "Accuro EMR" },
-    { name: "ArcGIS Pro" },
-    { name: "GeoDa" },
-    { name: "Microsoft Office" },
-    { name: "Google Workspace" },
-    { name: "Zoom" },
-    { name: "Slack" },
-    { name: "Social Media" },
-    { name: "Lovable" },
-    { name: "Canva" },
-  ],
+  technical: {
+    dataAnalysis: {
+      label: "Data & Analysis",
+      skills: [
+        { name: "SAS" },
+        { name: "R" },
+        { name: "Microsoft Excel" }
+      ]
+    },
+    workflowProcess: {
+      label: "Workflow & Process Design",
+      skills: [
+        { name: "BPMN notation" }
+      ]
+    },
+    emr: {
+      label: "Electronic Medical Records (EMR)",
+      skills: [
+        { name: "Accuro EMR" }
+      ]
+    },
+    gis: {
+      label: "Geographic Information Systems",
+      skills: [
+        { name: "ArcGIS Pro" },
+        { name: "GeoDa" }
+      ]
+    },
+    toolsPlatforms: {
+      label: "Tools & Platforms",
+      skills: [
+        { name: "Microsoft Office" },
+        { name: "Google Workspace" },
+        { name: "Zoom" },
+        { name: "Slack" },
+        { name: "Social Media" }
+      ]
+    },
+    webDesign: {
+      label: "Web Design Tools",
+      skills: [
+        { name: "Lovable (VibeCoding)" },
+        { name: "Canva" }
+      ]
+    }
+  },
   analytical: [
     { name: "Health Equity" },
     { name: "Policy Analysis" },
@@ -29,12 +59,11 @@ const skills = {
     { name: "Client Communication" },
     { name: "Project Coordination" },
     { name: "Stakeholder Engagement" },
-    { name: "Written Communication" },
-    { name: "Verbal Communication" },
+    { name: "Written & Verbal Communication" },
   ],
   transferable: [
     { name: "Adaptability" },
-    { name: "Fast-paced Environments" },
+    { name: "Fast-Paced Environments" },
     { name: "Time Management" },
     { name: "Prioritization" },
     { name: "Multitasking" },
@@ -65,33 +94,52 @@ const Skills = () => {
 
           <div className="grid gap-8 animate-fade-in">
             {/* Technical Skills */}
-            <div style={{ animationDelay: "0ms" }}>
-              <div className="flex items-center gap-3 mb-4">
+            <div 
+              className="p-6 rounded-3xl bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/10"
+              style={{ animationDelay: "0ms" }}
+            >
+              <div className="flex items-center gap-3 mb-2">
                 <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center">
                   <Code className="h-6 w-6 text-primary" />
                 </div>
-                <h2 className="text-2xl font-serif">Technical Skills</h2>
+                <h2 className="text-3xl font-serif font-semibold">Technical Skills</h2>
               </div>
-              <div className="flex flex-wrap gap-2">
-                {skills.technical.map((skill, index) => (
-                  <Badge 
-                    key={index}
-                    className="px-4 py-2 text-sm bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors cursor-default border-0"
-                  >
-                    {skill.name}
-                  </Badge>
+              <div className="w-16 h-1 bg-primary/40 rounded-full mb-6 ml-[60px]"></div>
+              
+              <div className="space-y-4">
+                {Object.values(skills.technical).map((category, catIndex) => (
+                  <div key={catIndex}>
+                    <h3 className="text-sm font-medium text-muted-foreground mb-2">
+                      {category.label}
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      {category.skills.map((skill, skillIndex) => (
+                        <Badge 
+                          key={skillIndex}
+                          className="px-4 py-2 text-sm bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors cursor-default border-0"
+                        >
+                          {skill.name}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>
 
             {/* Analytical & Professional Skills */}
-            <div style={{ animationDelay: "100ms" }}>
-              <div className="flex items-center gap-3 mb-4">
+            <div 
+              className="p-6 rounded-3xl bg-gradient-to-br from-secondary/5 to-secondary/10 border border-secondary/10"
+              style={{ animationDelay: "100ms" }}
+            >
+              <div className="flex items-center gap-3 mb-2">
                 <div className="w-12 h-12 rounded-2xl bg-secondary/10 flex items-center justify-center">
                   <TrendingUp className="h-6 w-6 text-secondary-foreground" />
                 </div>
-                <h2 className="text-2xl font-serif">Analytical & Professional</h2>
+                <h2 className="text-3xl font-serif font-semibold">Analytical & Professional</h2>
               </div>
+              <div className="w-16 h-1 bg-secondary/40 rounded-full mb-6 ml-[60px]"></div>
+              
               <div className="flex flex-wrap gap-2">
                 {skills.analytical.map((skill, index) => (
                   <Badge 
@@ -106,13 +154,18 @@ const Skills = () => {
             </div>
 
             {/* Transferable Skills */}
-            <div style={{ animationDelay: "200ms" }}>
-              <div className="flex items-center gap-3 mb-4">
+            <div 
+              className="p-6 rounded-3xl bg-gradient-to-br from-accent/5 to-accent/10 border border-accent/10"
+              style={{ animationDelay: "200ms" }}
+            >
+              <div className="flex items-center gap-3 mb-2">
                 <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center">
                   <Users className="h-6 w-6 text-accent-foreground" />
                 </div>
-                <h2 className="text-2xl font-serif">Transferable Skills</h2>
+                <h2 className="text-3xl font-serif font-semibold">Transferable Skills</h2>
               </div>
+              <div className="w-16 h-1 bg-accent/40 rounded-full mb-6 ml-[60px]"></div>
+              
               <div className="flex flex-wrap gap-2">
                 {skills.transferable.map((skill, index) => (
                   <Badge 
@@ -126,13 +179,18 @@ const Skills = () => {
             </div>
 
             {/* Languages */}
-            <div style={{ animationDelay: "300ms" }}>
-              <div className="flex items-center gap-3 mb-4">
+            <div 
+              className="p-6 rounded-3xl bg-gradient-to-br from-muted/50 to-muted border border-muted"
+              style={{ animationDelay: "300ms" }}
+            >
+              <div className="flex items-center gap-3 mb-2">
                 <div className="w-12 h-12 rounded-2xl bg-muted flex items-center justify-center">
                   <Languages className="h-6 w-6 text-foreground" />
                 </div>
-                <h2 className="text-2xl font-serif">Languages</h2>
+                <h2 className="text-3xl font-serif font-semibold">Languages</h2>
               </div>
+              <div className="w-16 h-1 bg-foreground/40 rounded-full mb-6 ml-[60px]"></div>
+              
               <div className="flex flex-wrap gap-2">
                 {skills.languages.map((skill, index) => (
                   <Badge 
