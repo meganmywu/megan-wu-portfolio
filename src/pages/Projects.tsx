@@ -5,28 +5,48 @@ import { Users, Map, FileText, Smartphone } from "lucide-react";
 const projects = [
   {
     title: "Social Prescribing for Student Engagement",
-    description: "Designed a digital intervention to reduce isolation and improve resource access among university students. Proposed a hybrid model combining a faculty-based social prescriber with a supportive app, helping students navigate clubs, mental health resources, and engagement opportunities. This initiative highlighted how informatics can enhance wellbeing in academic settings.",
+    bulletPoints: [
+      "Designed a digital intervention to reduce isolation and improve resource access among university students",
+      "Proposed a hybrid model combining a faculty-based social prescriber with a supportive app",
+      "Helped students navigate clubs, mental health resources, and engagement opportunities",
+      "Highlighted how informatics can enhance wellbeing in academic settings"
+    ],
     icon: Users,
     color: "bg-primary-light",
     iconColor: "text-primary"
   },
   {
     title: "Geospatial Analysis of Hypertension Inequities",
-    description: "Conducted a geospatial study using ArcGIS Pro and GeoDa to examine hypertension prevalence across age and sex groups in Toronto. Integrated socioeconomic and environmental data such as walkability and deprivation to identify clusters of health inequities. The findings supported targeted public health strategies, highlighting how spatial analysis can inform urban planning and resource allocation.",
+    bulletPoints: [
+      "Conducted a geospatial study using ArcGIS Pro and GeoDa to examine hypertension prevalence across age and sex groups in Toronto",
+      "Integrated socioeconomic and environmental data such as walkability and deprivation to identify clusters of health inequities",
+      "Supported targeted public health strategies through spatial analysis",
+      "Demonstrated how spatial analysis can inform urban planning and resource allocation"
+    ],
     icon: Map,
     color: "bg-secondary",
     iconColor: "text-secondary-foreground"
   },
   {
     title: "Policy Brief on Genetic Screening Equity",
-    description: "Developed a policy brief analyzing inequities in access to genetic screening for low- and middle-income families in Ontario. Proposed a government-subsidized program and expanded insurance coverage to promote fairness and reduce health disparities. This work also considered ethical challenges like privacy and funding constraints, showing how digital tools and policy can intersect to improve equity.",
+    bulletPoints: [
+      "Developed a policy brief analyzing inequities in access to genetic screening for low- and middle-income families in Ontario",
+      "Proposed a government-subsidized program and expanded insurance coverage to promote fairness",
+      "Addressed ethical challenges like privacy and funding constraints",
+      "Showed how digital tools and policy can intersect to improve equity"
+    ],
     icon: FileText,
     color: "bg-accent",
     iconColor: "text-accent-foreground"
   },
   {
     title: "Maternal Health mHealth App Proposal",
-    description: "Authored a policy brief recommending a mobile health app designed to provide pregnant women with real-time air quality alerts and health recommendations. Built on case study analysis and partnerships with public health agencies, this project demonstrated how mobile solutions can empower vulnerable populations to take preventive actions against environmental health risks.",
+    bulletPoints: [
+      "Authored a policy brief recommending a mobile health app for pregnant women",
+      "Designed real-time air quality alerts and health recommendations",
+      "Built on case study analysis and partnerships with public health agencies",
+      "Demonstrated how mobile solutions can empower vulnerable populations to take preventive actions against environmental health risks"
+    ],
     icon: Smartphone,
     color: "bg-accent-warm",
     iconColor: "text-accent-foreground"
@@ -65,9 +85,14 @@ const Projects = () => {
                     <CardTitle className="text-2xl font-serif">{project.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-base leading-relaxed">
-                      {project.description}
-                    </CardDescription>
+                    <ul className="space-y-2 text-muted-foreground">
+                      {project.bulletPoints.map((point, pointIndex) => (
+                        <li key={pointIndex} className="flex items-start gap-2">
+                          <span className="text-primary mt-1.5">•</span>
+                          <span className="text-base leading-relaxed">{point}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </CardContent>
                 </Card>
               );

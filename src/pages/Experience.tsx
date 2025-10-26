@@ -6,43 +6,76 @@ const experiences = [
     title: "Medical Receptionist",
     organization: "Whole Health Medical Center",
     period: "Sep 2025 – Present",
-    description: "Serve as the first point of contact for patients, providing a professional and welcoming experience at the front desk. Manage scheduling and registration through Accuro EMR, support patient record updates, and handle incoming calls and emails with efficiency and discretion. Assist with administrative tasks such as filing, data entry, and appointment coordination, contributing to smooth clinic operations. This role highlights my organizational skills, communication abilities, and adaptability in a fast-paced healthcare environment."
+    bulletPoints: [
+      "Serve as the first point of contact for patients, providing a professional and welcoming experience at the front desk",
+      "Manage scheduling and registration through Accuro EMR, support patient record updates",
+      "Handle incoming calls and emails with efficiency and discretion",
+      "Assist with administrative tasks such as filing, data entry, and appointment coordination",
+      "Highlights organizational skills, communication abilities, and adaptability in a fast-paced healthcare environment"
+    ]
   },
   {
     title: "Volunteer Coordinator Assistant",
     organization: "Shepherd Village",
     period: "June – Aug 2025",
-    description: "Supported volunteer recruitment, training, and scheduling using Vome software and Excel. Coordinated events and monthly sessions to improve engagement and streamlined administrative processes through data entry, reporting, and survey analysis. Strengthened community programs by improving volunteer communications and evaluation."
+    bulletPoints: [
+      "Supported volunteer recruitment, training, and scheduling using Vome software and Excel",
+      "Coordinated events and monthly sessions to improve engagement",
+      "Streamlined administrative processes through data entry, reporting, and survey analysis",
+      "Strengthened community programs by improving volunteer communications and evaluation"
+    ]
   },
   {
     title: "Research Assistant",
     organization: "University of Waterloo",
     period: "Feb – Dec 2024",
-    description: "Contributed to a PhD thesis project focused on analyzing the impact of nutritional policies on sugar levels in beverages across multiple countries. Collected data through web scraping and aggregation from global manufacturers. Enabled comprehensive health policy analysis while sharpening technical skills in data management."
+    bulletPoints: [
+      "Contributed to a PhD thesis project focused on analyzing the impact of nutritional policies on sugar levels in beverages across multiple countries",
+      "Collected data through web scraping and aggregation from global manufacturers",
+      "Enabled comprehensive health policy analysis while sharpening technical skills in data management"
+    ]
   },
   {
     title: "Social Innovation Intern",
     organization: "United College, University of Waterloo",
     period: "Dec 2024",
-    description: "Created an inclusive intervention using social prescribing to reduce social anxiety and improve student engagement. Designed a digital app concept paired with human support. Synthesized outcomes into a case study that informed future education-based health initiatives."
+    bulletPoints: [
+      "Created an inclusive intervention using social prescribing to reduce social anxiety and improve student engagement",
+      "Designed a digital app concept paired with human support",
+      "Synthesized outcomes into a case study that informed future education-based health initiatives"
+    ]
   },
   {
     title: "Specialties & DEX Coordinator",
     organization: "Bayshore Specialty Rx",
     period: "May – Aug 2022",
-    description: "Coordinated operations across specialties and distribution teams to ensure timely delivery of over 400 daily medications. Maintained quality control, verified prescription accuracy, and supported pharmaceutical logistics. This role reinforced attention to detail, patient safety, and reliable health service delivery."
+    bulletPoints: [
+      "Coordinated operations across specialties and distribution teams to ensure timely delivery of over 400 daily medications",
+      "Maintained quality control and verified prescription accuracy",
+      "Supported pharmaceutical logistics",
+      "Reinforced attention to detail, patient safety, and reliable health service delivery"
+    ]
   },
   {
     title: "Front Desk Receptionist",
     organization: "Epic Sports Badminton Club",
     period: "Sep 2020 – Aug 2021",
-    description: "Managed front-desk operations, including booking courts and scheduling training, to deliver smooth customer experiences. Oversaw the pro shop and handled transactions with accurate records—strengthening service reliability and day-to-day operational flow."
+    bulletPoints: [
+      "Managed front-desk operations, including booking courts and scheduling training",
+      "Delivered smooth customer experiences and oversaw the pro shop",
+      "Handled transactions with accurate records",
+      "Strengthened service reliability and day-to-day operational flow"
+    ]
   },
   {
     title: "Nurse Aid",
     organization: "Sienna Senior Living",
     period: "Nov 2019 – Mar 2020",
-    description: "Supported the Director of Care in delivering resident care and facility operations. Assisted with archiving, documentation, and activity facilitation to promote social and physical wellbeing for residents. Demonstrated compassion, organization, and commitment to improving the daily lives of older adults."
+    bulletPoints: [
+      "Supported the Director of Care in delivering resident care and facility operations",
+      "Assisted with archiving, documentation, and activity facilitation to promote social and physical wellbeing for residents",
+      "Demonstrated compassion, organization, and commitment to improving the daily lives of older adults"
+    ]
   }
 ];
 
@@ -89,9 +122,14 @@ const Experience = () => {
                         <span className="hidden sm:inline text-muted-foreground">•</span>
                         <span className="text-muted-foreground text-sm">{exp.period}</span>
                       </div>
-                      <p className="text-muted-foreground leading-relaxed">
-                        {exp.description}
-                      </p>
+                      <ul className="space-y-2 text-muted-foreground">
+                        {exp.bulletPoints.map((point, pointIndex) => (
+                          <li key={pointIndex} className="flex items-start gap-2">
+                            <span className="text-primary mt-1.5">•</span>
+                            <span className="leading-relaxed">{point}</span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
                 </div>
