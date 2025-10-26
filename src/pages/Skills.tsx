@@ -53,12 +53,9 @@ const skills = {
   analytical: [
     { name: "Health Equity" },
     { name: "Policy Analysis" },
-    { name: "Workflow Optimization" },
-    { name: "Workflow Evaluation" },
-    { name: "Patient Communication" },
-    { name: "Client Communication" },
-    { name: "Project Coordination" },
-    { name: "Stakeholder Engagement" },
+    { name: "Workflow Optimization & Evaluation" },
+    { name: "Patient & Client Communication" },
+    { name: "Project Coordination & Stakeholder Engagement" },
     { name: "Written & Verbal Communication" },
   ],
   transferable: [
