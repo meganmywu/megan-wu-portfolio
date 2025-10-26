@@ -12,26 +12,29 @@ const Home = () => {
         
         {/* Floating Background Icons */}
         <div className="absolute inset-0 pointer-events-none">
-          <Activity className="absolute top-[8%] left-[5%] w-16 h-16 text-primary opacity-10 animate-float" 
+          {/* Left side icons */}
+          <Activity className="absolute top-[12%] left-[8%] w-14 h-14 text-primary opacity-12 animate-float" 
                     style={{ animationDuration: '6s', animationDelay: '0s' }} />
-          <Database className="absolute top-[12%] right-[8%] w-12 h-12 text-accent opacity-15 animate-float" 
-                    style={{ animationDuration: '8s', animationDelay: '1s' }} />
-          <Atom className="absolute bottom-[25%] left-[3%] w-14 h-14 text-secondary opacity-12 animate-float" 
-                style={{ animationDuration: '7s', animationDelay: '2s' }} />
-          <Monitor className="absolute top-[35%] left-[6%] w-10 h-10 text-primary opacity-10 animate-float" 
-                    style={{ animationDuration: '9s', animationDelay: '0.5s' }} />
-          <Percent className="absolute top-[50%] left-[4%] w-8 h-8 text-accent opacity-15 animate-float" 
-                    style={{ animationDuration: '7.5s', animationDelay: '1.5s' }} />
-          <Heart className="absolute bottom-[15%] left-[7%] w-12 h-12 text-destructive opacity-12 animate-float" 
-                style={{ animationDuration: '8.5s', animationDelay: '3s' }} />
-          <Plus className="absolute top-[20%] right-[6%] w-14 h-14 text-secondary opacity-10 animate-float" 
-                style={{ animationDuration: '6.5s', animationDelay: '2.5s' }} />
-          <Stethoscope className="absolute bottom-[30%] right-[5%] w-11 h-11 text-primary opacity-15 animate-float" 
-                      style={{ animationDuration: '8s', animationDelay: '1.2s' }} />
-          <Database className="absolute bottom-[10%] right-[9%] w-9 h-9 text-accent opacity-10 animate-float" 
-                    style={{ animationDuration: '7s', animationDelay: '0.8s' }} />
-          <Atom className="absolute top-[65%] right-[7%] w-13 h-13 text-secondary opacity-12 animate-float" 
-                style={{ animationDuration: '9.5s', animationDelay: '3.5s' }} />
+          <Monitor className="absolute top-[42%] left-[5%] w-11 h-11 text-accent opacity-10 animate-float" 
+                    style={{ animationDuration: '8.5s', animationDelay: '1.8s' }} />
+          <Atom className="absolute top-[68%] left-[12%] w-13 h-13 text-secondary opacity-13 animate-float" 
+                style={{ animationDuration: '7s', animationDelay: '2.2s' }} />
+          <Percent className="absolute bottom-[18%] left-[6%] w-10 h-10 text-primary opacity-11 animate-float" 
+                    style={{ animationDuration: '7.8s', animationDelay: '1.3s' }} />
+          <Heart className="absolute top-[28%] left-[10%] w-12 h-12 text-primary opacity-12 animate-float" 
+                style={{ animationDuration: '8.2s', animationDelay: '2.8s' }} />
+          
+          {/* Right side icons */}
+          <Database className="absolute top-[15%] right-[10%] w-12 h-12 text-accent opacity-14 animate-float" 
+                    style={{ animationDuration: '7.5s', animationDelay: '1s' }} />
+          <Stethoscope className="absolute top-[38%] right-[7%] w-13 h-13 text-secondary opacity-12 animate-float" 
+                      style={{ animationDuration: '8s', animationDelay: '0.5s' }} />
+          <Plus className="absolute top-[58%] right-[11%] w-11 h-11 text-accent opacity-11 animate-float" 
+                style={{ animationDuration: '6.8s', animationDelay: '2.5s' }} />
+          <Database className="absolute bottom-[22%] right-[8%] w-10 h-10 text-primary opacity-13 animate-float" 
+                    style={{ animationDuration: '7.2s', animationDelay: '1.5s' }} />
+          <Atom className="absolute bottom-[8%] right-[13%] w-12 h-12 text-secondary opacity-10 animate-float" 
+                style={{ animationDuration: '8.8s', animationDelay: '3.2s' }} />
         </div>
 
         <div className="relative max-w-5xl mx-auto text-center animate-fade-in-up">
