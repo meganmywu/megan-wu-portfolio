@@ -95,7 +95,7 @@ const Skills = () => {
           <div className="grid gap-8 animate-fade-in">
             {/* Technical Skills */}
             <div 
-              className="p-6 rounded-3xl bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/10"
+              className="p-6 rounded-3xl bg-gradient-to-br from-primary/15 to-primary/25 border border-primary/20"
               style={{ animationDelay: "0ms" }}
             >
               <div className="flex items-center gap-3 mb-2">
@@ -129,14 +129,14 @@ const Skills = () => {
 
             {/* Analytical & Professional Skills */}
             <div 
-              className="p-6 rounded-3xl bg-gradient-to-br from-secondary/5 to-secondary/10 border border-secondary/10"
+              className="p-6 rounded-3xl bg-gradient-to-br from-secondary/15 to-secondary/25 border border-secondary/20"
               style={{ animationDelay: "100ms" }}
             >
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-12 h-12 rounded-2xl bg-secondary/10 flex items-center justify-center">
                   <TrendingUp className="h-6 w-6 text-secondary-foreground" />
                 </div>
-                <h2 className="text-3xl font-serif font-semibold">Analytical & Professional</h2>
+                <h2 className="text-3xl font-serif font-semibold">Analytical & Professional Skills</h2>
               </div>
               <div className="w-16 h-1 bg-secondary/40 rounded-full mb-6 ml-[60px]"></div>
               
@@ -144,8 +144,7 @@ const Skills = () => {
                 {skills.analytical.map((skill, index) => (
                   <Badge 
                     key={index}
-                    variant="secondary"
-                    className="px-4 py-2 text-sm cursor-default hover:bg-secondary/80 transition-colors border-0"
+                    className="px-4 py-2 text-sm bg-secondary/10 text-secondary-foreground hover:bg-secondary hover:text-secondary-foreground transition-colors cursor-default border-0"
                   >
                     {skill.name}
                   </Badge>
@@ -155,7 +154,7 @@ const Skills = () => {
 
             {/* Transferable Skills */}
             <div 
-              className="p-6 rounded-3xl bg-gradient-to-br from-accent/5 to-accent/10 border border-accent/10"
+              className="p-6 rounded-3xl bg-gradient-to-br from-accent/15 to-accent/25 border border-accent/20"
               style={{ animationDelay: "200ms" }}
             >
               <div className="flex items-center gap-3 mb-2">
@@ -170,7 +169,7 @@ const Skills = () => {
                 {skills.transferable.map((skill, index) => (
                   <Badge 
                     key={index}
-                    className="px-4 py-2 text-sm bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors cursor-default border-0"
+                    className="px-4 py-2 text-sm bg-accent/10 text-accent-foreground hover:bg-accent hover:text-accent-foreground transition-colors cursor-default border-0"
                   >
                     {skill.name}
                   </Badge>
@@ -180,7 +179,7 @@ const Skills = () => {
 
             {/* Languages */}
             <div 
-              className="p-6 rounded-3xl bg-gradient-to-br from-muted/50 to-muted border border-muted"
+              className="p-6 rounded-3xl bg-gradient-to-br from-muted/60 to-muted/80 border border-muted/40"
               style={{ animationDelay: "300ms" }}
             >
               <div className="flex items-center gap-3 mb-2">
@@ -195,7 +194,7 @@ const Skills = () => {
                 {skills.languages.map((skill, index) => (
                   <Badge 
                     key={index}
-                    className="px-4 py-2 text-sm bg-muted text-foreground hover:bg-muted/80 transition-colors cursor-default border-0"
+                    className="px-4 py-2 text-sm bg-foreground/10 text-foreground hover:bg-foreground hover:text-background transition-colors cursor-default border-0"
                   >
                     {skill.name} <span className="ml-1 opacity-70">• {skill.level}</span>
                   </Badge>
