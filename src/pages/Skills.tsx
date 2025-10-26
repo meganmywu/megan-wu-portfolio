@@ -16,7 +16,7 @@ const skills = {
     workflowProcess: {
       label: "Workflow & Process Design",
       skills: [
-        { name: "BPMN notation" }
+        { name: "BPMN Notation" }
       ]
     },
     emr: {
