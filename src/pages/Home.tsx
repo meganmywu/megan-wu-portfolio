@@ -12,29 +12,33 @@ const Home = () => {
         
         {/* Floating Background Icons */}
         <div className="absolute inset-0 pointer-events-none">
+          {/* Top edge icons */}
+          <Activity className="absolute top-[8%] left-[15%] w-12 h-12 gradient-text opacity-12 animate-float" 
+                    style={{ animationDuration: '6.5s', animationDelay: '0s' }} />
+          <Plus className="absolute top-[6%] left-[45%] w-11 h-11 gradient-text opacity-11 animate-float" 
+                style={{ animationDuration: '7.2s', animationDelay: '2.1s' }} />
+          <Database className="absolute top-[10%] right-[18%] w-12 h-12 gradient-text opacity-13 animate-float" 
+                    style={{ animationDuration: '8s', animationDelay: '1.2s' }} />
+          
           {/* Left side icons */}
-          <Activity className="absolute top-[12%] left-[8%] w-14 h-14 text-primary opacity-12 animate-float" 
-                    style={{ animationDuration: '6s', animationDelay: '0s' }} />
-          <Monitor className="absolute top-[42%] left-[5%] w-11 h-11 text-accent opacity-10 animate-float" 
-                    style={{ animationDuration: '8.5s', animationDelay: '1.8s' }} />
-          <Atom className="absolute top-[68%] left-[12%] w-13 h-13 text-secondary opacity-13 animate-float" 
-                style={{ animationDuration: '7s', animationDelay: '2.2s' }} />
-          <Percent className="absolute bottom-[18%] left-[6%] w-10 h-10 text-primary opacity-11 animate-float" 
-                    style={{ animationDuration: '7.8s', animationDelay: '1.3s' }} />
-          <Heart className="absolute top-[28%] left-[10%] w-12 h-12 text-primary opacity-12 animate-float" 
-                style={{ animationDuration: '8.2s', animationDelay: '2.8s' }} />
+          <Monitor className="absolute top-[35%] left-[6%] w-11 h-11 gradient-text opacity-10 animate-float" 
+                    style={{ animationDuration: '8.8s', animationDelay: '1.6s' }} />
+          <Heart className="absolute top-[58%] left-[8%] w-12 h-12 gradient-text opacity-12 animate-float" 
+                style={{ animationDuration: '7.5s', animationDelay: '2.8s' }} />
           
           {/* Right side icons */}
-          <Database className="absolute top-[15%] right-[10%] w-12 h-12 text-accent opacity-14 animate-float" 
-                    style={{ animationDuration: '7.5s', animationDelay: '1s' }} />
-          <Stethoscope className="absolute top-[38%] right-[7%] w-13 h-13 text-secondary opacity-12 animate-float" 
-                      style={{ animationDuration: '8s', animationDelay: '0.5s' }} />
-          <Plus className="absolute top-[58%] right-[11%] w-11 h-11 text-accent opacity-11 animate-float" 
-                style={{ animationDuration: '6.8s', animationDelay: '2.5s' }} />
-          <Database className="absolute bottom-[22%] right-[8%] w-10 h-10 text-primary opacity-13 animate-float" 
-                    style={{ animationDuration: '7.2s', animationDelay: '1.5s' }} />
-          <Atom className="absolute bottom-[8%] right-[13%] w-12 h-12 text-secondary opacity-10 animate-float" 
-                style={{ animationDuration: '8.8s', animationDelay: '3.2s' }} />
+          <Stethoscope className="absolute top-[32%] right-[7%] w-15 h-15 gradient-text opacity-13 animate-float" 
+                      style={{ animationDuration: '8.2s', animationDelay: '0.8s' }} />
+          <Percent className="absolute top-[55%] right-[9%] w-11 h-11 gradient-text opacity-11 animate-float" 
+                    style={{ animationDuration: '7.8s', animationDelay: '1.9s' }} />
+          
+          {/* Bottom edge icons */}
+          <Atom className="absolute bottom-[12%] left-[20%] w-15 h-15 gradient-text opacity-14 animate-float" 
+                style={{ animationDuration: '7.3s', animationDelay: '2.5s' }} />
+          <Database className="absolute bottom-[8%] left-[50%] w-10 h-10 gradient-text opacity-10 animate-float" 
+                    style={{ animationDuration: '6.9s', animationDelay: '1.4s' }} />
+          <Atom className="absolute bottom-[14%] right-[22%] w-14 h-14 gradient-text opacity-12 animate-float" 
+                style={{ animationDuration: '8.5s', animationDelay: '3.2s' }} />
         </div>
 
         <div className="relative max-w-5xl mx-auto text-center animate-fade-in-up">
