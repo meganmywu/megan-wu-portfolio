@@ -116,7 +116,7 @@ const Skills = () => {
                       {category.skills.map((skill, skillIndex) => (
                         <Badge 
                           key={skillIndex}
-                          className="px-4 py-2 text-sm bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors cursor-default border-0"
+                          className="px-4 py-2 text-sm bg-primary/10 text-primary hover:bg-primary hover:text-primary transition-colors cursor-default border-0"
                         >
                           {skill.name}
                         </Badge>
@@ -194,7 +194,7 @@ const Skills = () => {
                 {skills.languages.map((skill, index) => (
                   <Badge 
                     key={index}
-                    className="px-4 py-2 text-sm bg-foreground/10 text-foreground hover:bg-foreground hover:text-background transition-colors cursor-default border-0"
+                    className="px-4 py-2 text-sm bg-foreground/10 text-foreground hover:bg-foreground/60 hover:text-foreground transition-colors cursor-default border-0"
                   >
                     {skill.name} <span className="ml-1 opacity-70">• {skill.level}</span>
                   </Badge>
