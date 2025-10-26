@@ -144,7 +144,7 @@ const Skills = () => {
                 {skills.analytical.map((skill, index) => (
                   <Badge 
                     key={index}
-                    className="px-4 py-2 text-sm bg-secondary/10 text-secondary-foreground hover:bg-secondary hover:text-secondary-foreground transition-colors cursor-default border-0"
+                    className="px-4 py-2 text-sm bg-secondary/25 text-secondary-foreground hover:bg-secondary hover:text-secondary-foreground transition-colors cursor-default border-0"
                   >
                     {skill.name}
                   </Badge>
@@ -169,7 +169,7 @@ const Skills = () => {
                 {skills.transferable.map((skill, index) => (
                   <Badge 
                     key={index}
-                    className="px-4 py-2 text-sm bg-accent/10 text-accent-foreground hover:bg-accent hover:text-accent-foreground transition-colors cursor-default border-0"
+                    className="px-4 py-2 text-sm bg-accent/25 text-accent-foreground hover:bg-accent hover:text-accent-foreground transition-colors cursor-default border-0"
                   >
                     {skill.name}
                   </Badge>
