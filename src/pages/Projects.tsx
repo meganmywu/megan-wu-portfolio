@@ -37,7 +37,7 @@ const projects = [
     iconColor: "text-accent-foreground"
   },
   {
-    title: "Maternal Health mHealth App Proposal",
+    title: "Maternal mHealth App Proposal",
     bulletPoints: [
       "Proposed a mobile health app delivering real-time air-quality alerts and health recommendations for pregnant individuals",
       "Based on case study research and collaboration with public health agencies",
