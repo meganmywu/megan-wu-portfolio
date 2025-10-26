@@ -6,10 +6,9 @@ const projects = [
   {
     title: "Social Prescribing for Student Engagement",
     bulletPoints: [
-      "Designed a digital intervention to reduce isolation and improve resource access among university students",
-      "Proposed a hybrid model combining a faculty-based social prescriber with a supportive app",
-      "Helped students navigate clubs, mental health resources, and engagement opportunities",
-      "Highlighted how informatics can enhance wellbeing in academic settings"
+      "Designed a digital intervention to reduce isolation and improve access to campus resources for university students",
+      "Proposed a hybrid model combining a faculty-based social prescriber with an app that connects students to clubs, mental health supports, and engagement opportunities",
+      "Highlighted how informatics-driven design can enhance wellbeing and social connection in academic settings"
     ],
     icon: Users,
     color: "bg-primary-light",
@@ -18,10 +17,9 @@ const projects = [
   {
     title: "Geospatial Analysis of Hypertension Inequities",
     bulletPoints: [
-      "Conducted a geospatial study using ArcGIS Pro and GeoDa to examine hypertension prevalence across age and sex groups in Toronto",
-      "Integrated socioeconomic and environmental data such as walkability and deprivation to identify clusters of health inequities",
-      "Supported targeted public health strategies through spatial analysis",
-      "Demonstrated how spatial analysis can inform urban planning and resource allocation"
+      "Conducted a geospatial analysis using ArcGIS Pro and GeoDa to map hypertension prevalence by age and sex in Toronto",
+      "Integrated socioeconomic and environmental indicators to identify clusters of inequity",
+      "Produced insights to inform targeted public health planning and equitable resource allocation"
     ],
     icon: Map,
     color: "bg-secondary",
@@ -30,10 +28,9 @@ const projects = [
   {
     title: "Policy Brief on Genetic Screening Equity",
     bulletPoints: [
-      "Developed a policy brief analyzing inequities in access to genetic screening for low- and middle-income families in Ontario",
-      "Proposed a government-subsidized program and expanded insurance coverage to promote fairness",
-      "Addressed ethical challenges like privacy and funding constraints",
-      "Showed how digital tools and policy can intersect to improve equity"
+      "Analyzed inequities in access to genetic screening among low- and middle-income families in Ontario",
+      "Proposed a government-subsidized program and expanded insurance coverage to improve fairness and reduce health disparities",
+      "Addressed ethical considerations (privacy, cost, and funding constraints) showing how digital policy interventions can advance equity"
     ],
     icon: FileText,
     color: "bg-accent",
@@ -42,10 +39,9 @@ const projects = [
   {
     title: "Maternal Health mHealth App Proposal",
     bulletPoints: [
-      "Authored a policy brief recommending a mobile health app for pregnant women",
-      "Designed real-time air quality alerts and health recommendations",
-      "Built on case study analysis and partnerships with public health agencies",
-      "Demonstrated how mobile solutions can empower vulnerable populations to take preventive actions against environmental health risks"
+      "Proposed a mobile health app delivering real-time air-quality alerts and health recommendations for pregnant individuals",
+      "Based on case study research and collaboration with public health agencies",
+      "Demonstrated how digital health tools empower vulnerable populations to take preventive actions against environmental risks"
     ],
     icon: Smartphone,
     color: "bg-accent-warm",

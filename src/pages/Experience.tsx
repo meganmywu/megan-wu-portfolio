@@ -7,11 +7,9 @@ const experiences = [
     organization: "Whole Health Medical Center",
     period: "Sep 2025 – Present",
     bulletPoints: [
-      "Serve as the first point of contact for patients, providing a professional and welcoming experience at the front desk",
-      "Manage scheduling and registration through Accuro EMR, support patient record updates",
-      "Handle incoming calls and emails with efficiency and discretion",
-      "Assist with administrative tasks such as filing, data entry, and appointment coordination",
-      "Highlights organizational skills, communication abilities, and adaptability in a fast-paced healthcare environment"
+      "Provide front desk and administrative support using Accuro EMR, including scheduling, patient registration, and document management",
+      "Manage phone, email, and in-person communications while maintaining organized records to ensure efficient clinic operations",
+      "Maintain accurate records and prepare documentation to ensure efficient operations in a fast-paced clinical environment"
     ]
   },
   {
@@ -19,10 +17,10 @@ const experiences = [
     organization: "Shepherd Village",
     period: "June – Aug 2025",
     bulletPoints: [
-      "Supported volunteer recruitment, training, and scheduling using Vome software and Excel",
-      "Coordinated events and monthly sessions to improve engagement",
-      "Streamlined administrative processes through data entry, reporting, and survey analysis",
-      "Strengthened community programs by improving volunteer communications and evaluation"
+      "Supported volunteer recruitment, training, and scheduling using Vome volunteer management software and Excel",
+      "Coordinated various events and monthly information sessions to enhance engagement",
+      "Managed volunteer communications and evaluations, contributing to improved program outcomes",
+      "Performed administrative tasks such as data entry, reporting, and survey analysis to streamline operations"
     ]
   },
   {
@@ -30,9 +28,9 @@ const experiences = [
     organization: "University of Waterloo",
     period: "Feb – Dec 2024",
     bulletPoints: [
-      "Contributed to a PhD thesis project focused on analyzing the impact of nutritional policies on sugar levels in beverages across multiple countries",
-      "Collected data through web scraping and aggregation from global manufacturers",
-      "Enabled comprehensive health policy analysis while sharpening technical skills in data management"
+      "Supporting a PhD thesis aimed at analyzing the impact of nutritional policies on sugar levels in beverages across various countries",
+      "Employing web scraping and data aggregation techniques to collect extensive nutritional information from global brand and manufacturer websites, enabling comprehensive analysis of health policies and trends in sugar consumption",
+      "Advancing global health insights by assisting in research that assesses the effectiveness of public health interventions on reducing sugar intake, aimed at guiding future policies to improve nutritional standards"
     ]
   },
   {
@@ -40,9 +38,8 @@ const experiences = [
     organization: "United College, University of Waterloo",
     period: "Dec 2024",
     bulletPoints: [
-      "Created an inclusive intervention using social prescribing to reduce social anxiety and improve student engagement",
-      "Designed a digital app concept paired with human support",
-      "Synthesized outcomes into a case study that informed future education-based health initiatives"
+      "Created an inclusive intervention addressing student engagement through social prescribing, integrating a digital app and human support to reduce social anxiety and improve resource access",
+      "Synthesized findings into a case study to inform future educational initiatives, emphasizing the intersection of health innovation, resource accessibility, and community wellbeing"
     ]
   },
   {
@@ -50,10 +47,9 @@ const experiences = [
     organization: "Bayshore Specialty Rx",
     period: "May – Aug 2022",
     bulletPoints: [
-      "Coordinated operations across specialties and distribution teams to ensure timely delivery of over 400 daily medications",
-      "Maintained quality control and verified prescription accuracy",
-      "Supported pharmaceutical logistics",
-      "Reinforced attention to detail, patient safety, and reliable health service delivery"
+      "Coordinated operations between Specialties and DEX departments to ensure timely and accurate delivery of medications, supporting patient care across diverse communities",
+      "Verified the accuracy of 300+ medications daily, maintaining strict quality control standards and reinforcing medication safety practices",
+      "Streamlined logistics through efficient label production and shipping management, improving workflow reliability and healthcare accessibility"
     ]
   },
   {
@@ -61,10 +57,9 @@ const experiences = [
     organization: "Epic Sports Badminton Club",
     period: "Sep 2020 – Aug 2021",
     bulletPoints: [
-      "Managed front-desk operations, including booking courts and scheduling training",
-      "Delivered smooth customer experiences and oversaw the pro shop",
-      "Handled transactions with accurate records",
-      "Strengthened service reliability and day-to-day operational flow"
+      "Managed the front desk operations efficiently, handling a wide range of responsibilities, including booking courts, scheduling training, and facilitating seamless customer experiences",
+      "Oversaw the club's retail shop, ensuring merchandise availability and assisting customers with selections",
+      "Processed transactions for services and merchandise, ensuring accuracy in financial records"
     ]
   },
   {
@@ -73,8 +68,8 @@ const experiences = [
     period: "Nov 2019 – Mar 2020",
     bulletPoints: [
       "Supported the Director of Care in delivering resident care and facility operations",
-      "Assisted with archiving, documentation, and activity facilitation to promote social and physical wellbeing for residents",
-      "Demonstrated compassion, organization, and commitment to improving the daily lives of older adults"
+      "Demonstrated strong organizational skills through archiving and data entry responsibilities, and ensuring accurate documentation",
+      "Assisted with archiving, documentation, and activity facilitation to promote social and physical wellbeing for residents"
     ]
   }
 ];
