@@ -78,20 +78,20 @@ const Experience = () => {
   const getGradientColor = (index: number, total: number) => {
     const progress = index / (total - 1); // 0 to 1
     
-    // Define color stops: warm peach → sage green → lavender (darker for readability)
+    // Define color stops: warm peach → sage green → lavender
     if (progress < 0.5) {
       // First half: peach to sage green
       const localProgress = progress * 2; // 0 to 1
       const hue = 20 + (150 - 20) * localProgress;
-      const saturation = 70 - (70 - 35) * localProgress;
-      const lightness = 50 - (50 - 45) * localProgress; // Darker for text readability
+      const saturation = 60 - (60 - 25) * localProgress;
+      const lightness = 75 - (75 - 65) * localProgress;
       return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
     } else {
       // Second half: sage green to lavender
       const localProgress = (progress - 0.5) * 2; // 0 to 1
       const hue = 150 + (260 - 150) * localProgress;
-      const saturation = 35 + (40 - 35) * localProgress;
-      const lightness = 45 + (50 - 45) * localProgress; // Darker for text readability
+      const saturation = 25 + (30 - 25) * localProgress;
+      const lightness = 65 + (75 - 65) * localProgress;
       return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
     }
   };
@@ -112,13 +112,8 @@ const Experience = () => {
           </div>
 
           <div className="relative animate-fade-in">
-            {/* Timeline line with gradient */}
-            <div 
-              className="absolute left-6 top-8 bottom-8 w-0.5 hidden md:block"
-              style={{ 
-                background: `linear-gradient(180deg, ${getGradientColor(0, experiences.length)}, ${getGradientColor(Math.floor(experiences.length / 2), experiences.length)}, ${getGradientColor(experiences.length - 1, experiences.length)})`
-              }}
-            ></div>
+            {/* Timeline line */}
+            <div className="absolute left-6 top-8 bottom-8 w-0.5 bg-gradient-primary hidden md:block"></div>
 
             <div className="space-y-8">
               {experiences.map((exp, index) => (
