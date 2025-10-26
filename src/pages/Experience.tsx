@@ -119,8 +119,8 @@ const Experience = () => {
                       </div>
                       <ul className="space-y-2 text-muted-foreground">
                         {exp.bulletPoints.map((point, pointIndex) => (
-                          <li key={pointIndex} className="flex items-start gap-2">
-                            <span className="text-primary mt-1.5">•</span>
+                          <li key={pointIndex} className="flex items-center gap-2">
+                            <span className="text-primary">•</span>
                             <span className="leading-relaxed">{point}</span>
                           </li>
                         ))}
