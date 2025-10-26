@@ -45,7 +45,7 @@ const skills = {
     webDesign: {
       label: "Web Design Tools",
       skills: [
-        { name: "Lovable (VibeCoding)" },
+        { name: "Lovable (Vibe Coding)" },
         { name: "Canva" }
       ]
     }
