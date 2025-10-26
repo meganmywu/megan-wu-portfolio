@@ -156,9 +156,9 @@ const Skills = () => {
               style={{ animationDelay: "200ms" }}
             >
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center">
-                  <Users className="h-6 w-6 text-accent-foreground" />
-                </div>
+              <div className="w-12 h-12 rounded-2xl bg-accent/35 flex items-center justify-center">
+                <Users className="h-6 w-6 text-accent-foreground" />
+              </div>
                 <h2 className="text-3xl font-serif font-semibold">Transferable Skills</h2>
               </div>
               <div className="w-16 h-1 bg-accent/60 rounded-full mb-6 ml-[60px]"></div>
