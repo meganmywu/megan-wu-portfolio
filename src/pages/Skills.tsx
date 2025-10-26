@@ -163,13 +163,13 @@ const Skills = () => {
                 </div>
                 <h2 className="text-3xl font-serif font-semibold">Transferable Skills</h2>
               </div>
-              <div className="w-16 h-1 bg-accent/40 rounded-full mb-6 ml-[60px]"></div>
+              <div className="w-16 h-1 bg-accent/50 rounded-full mb-6 ml-[60px]"></div>
               
               <div className="flex flex-wrap gap-2">
                 {skills.transferable.map((skill, index) => (
                   <Badge 
                     key={index}
-                    className="px-4 py-2 text-sm bg-accent/25 text-accent-foreground hover:bg-accent hover:text-accent-foreground transition-colors cursor-default border-0"
+                    className="px-4 py-2 text-sm bg-accent/30 text-accent-foreground hover:bg-accent hover:text-accent-foreground transition-colors cursor-default border-0"
                   >
                     {skill.name}
                   </Badge>
