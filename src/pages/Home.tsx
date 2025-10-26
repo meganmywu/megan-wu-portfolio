@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { ArrowRight, Sparkles, Target, BadgeCheck, MessageCircle } from "lucide-react";
+import { ArrowRight, Sparkles, Target, BadgeCheck, MessageCircle, Activity, Database, Atom } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
 
 const Home = () => {
@@ -9,6 +9,23 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-primary opacity-30"></div>
+        
+        {/* Floating Background Icons */}
+        <div className="absolute inset-0 pointer-events-none">
+          <Activity className="absolute top-[15%] left-[10%] w-16 h-16 text-primary opacity-10 animate-float" 
+                    style={{ animationDuration: '6s', animationDelay: '0s' }} />
+          <Database className="absolute top-[25%] right-[15%] w-12 h-12 text-accent opacity-15 animate-float" 
+                    style={{ animationDuration: '8s', animationDelay: '1s' }} />
+          <Atom className="absolute bottom-[30%] left-[20%] w-14 h-14 text-secondary opacity-12 animate-float" 
+                style={{ animationDuration: '7s', animationDelay: '2s' }} />
+          <Activity className="absolute bottom-[20%] right-[25%] w-10 h-10 text-primary opacity-10 animate-float" 
+                    style={{ animationDuration: '9s', animationDelay: '0.5s' }} />
+          <Database className="absolute top-[40%] left-[8%] w-8 h-8 text-accent opacity-15 animate-float" 
+                    style={{ animationDuration: '7.5s', animationDelay: '1.5s' }} />
+          <Atom className="absolute top-[60%] right-[12%] w-12 h-12 text-secondary opacity-12 animate-float" 
+                style={{ animationDuration: '8.5s', animationDelay: '3s' }} />
+        </div>
+
         <div className="relative max-w-5xl mx-auto text-center animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-light text-primary text-sm font-medium mb-6">
             <Sparkles className="h-4 w-4" />
