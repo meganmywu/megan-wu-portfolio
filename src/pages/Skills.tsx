@@ -181,9 +181,9 @@ const Skills = () => {
               style={{ animationDelay: "300ms" }}
             >
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-12 h-12 rounded-2xl bg-muted flex items-center justify-center">
-                  <Languages className="h-6 w-6 text-foreground" />
-                </div>
+              <div className="w-12 h-12 rounded-2xl bg-foreground/10 flex items-center justify-center">
+                <Languages className="h-6 w-6 text-foreground" />
+              </div>
                 <h2 className="text-3xl font-serif font-semibold">Languages</h2>
               </div>
               <div className="w-16 h-1 bg-foreground/40 rounded-full mb-6 ml-[60px]"></div>
