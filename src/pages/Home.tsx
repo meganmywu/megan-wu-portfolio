@@ -15,7 +15,7 @@ const Home = () => {
           {/* Top edge icons */}
           <Activity className="absolute top-[8%] left-[18%] w-12 h-12 text-primary opacity-15 animate-float" 
                     style={{ animationDuration: '6.5s', animationDelay: '0s' }} />
-          <Plus className="absolute top-[5%] right-[35%] w-11 h-11 text-secondary opacity-15 animate-float" 
+          <Plus className="absolute top-[5%] right-[35%] w-11 h-11 text-secondary opacity-30 animate-float" 
                 style={{ animationDuration: '7.2s', animationDelay: '2.1s' }} />
           <Database className="absolute top-[9%] right-[15%] w-12 h-12 text-primary-glow opacity-15 animate-float" 
                     style={{ animationDuration: '8s', animationDelay: '1.2s' }} />
@@ -23,17 +23,17 @@ const Home = () => {
           {/* Left side icons */}
           <Monitor className="absolute top-[30%] left-[7%] w-11 h-11 text-primary opacity-15 animate-float" 
                     style={{ animationDuration: '8.8s', animationDelay: '1.6s' }} />
-          <Heart className="absolute top-[55%] left-[9%] w-12 h-12 text-primary-glow opacity-15 animate-float" 
+          <Heart className="absolute top-[55%] left-[9%] w-12 h-12 text-secondary opacity-25 animate-float" 
                 style={{ animationDuration: '7.5s', animationDelay: '2.8s' }} />
           
           {/* Right side icons */}
-          <Stethoscope className="absolute top-[28%] right-[8%] w-16 h-16 text-secondary opacity-15 animate-float" 
+          <Stethoscope className="absolute top-[28%] right-[8%] w-16 h-16 text-primary opacity-30 animate-float" 
                       style={{ animationDuration: '8.2s', animationDelay: '0.8s' }} />
           <Percent className="absolute top-[52%] right-[10%] w-11 h-11 text-primary opacity-15 animate-float" 
                     style={{ animationDuration: '7.8s', animationDelay: '1.9s' }} />
           
           {/* Bottom edge icons */}
-          <Atom className="absolute bottom-[10%] left-[22%] w-16 h-16 text-secondary opacity-15 animate-float" 
+          <Atom className="absolute bottom-[10%] left-[22%] w-16 h-16 text-primary opacity-30 animate-float" 
                 style={{ animationDuration: '7.3s', animationDelay: '2.5s' }} />
           <Database className="absolute bottom-[7%] left-[48%] w-10 h-10 text-primary-glow opacity-15 animate-float" 
                     style={{ animationDuration: '6.9s', animationDelay: '1.4s' }} />
