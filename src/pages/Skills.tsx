@@ -154,7 +154,7 @@ const Skills = () => {
 
             {/* Transferable Skills */}
             <div 
-              className="p-6 rounded-3xl bg-gradient-to-br from-muted/20 to-muted/35 border border-muted/30"
+              className="p-6 rounded-3xl bg-gradient-to-br from-accent/15 to-accent/25 border border-accent/20"
               style={{ animationDelay: "200ms" }}
             >
               <div className="flex items-center gap-3 mb-2">
@@ -169,7 +169,7 @@ const Skills = () => {
                 {skills.transferable.map((skill, index) => (
                   <Badge 
                     key={index}
-                    className="px-4 py-2 text-sm bg-muted/30 text-foreground hover:bg-muted hover:text-background transition-colors cursor-default border-0"
+                    className="px-4 py-2 text-sm bg-accent/10 text-accent-foreground hover:bg-accent hover:text-accent-foreground transition-colors cursor-default border-0"
                   >
                     {skill.name}
                   </Badge>
