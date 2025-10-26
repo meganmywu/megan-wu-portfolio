@@ -37,7 +37,7 @@ const Home = () => {
                 style={{ animationDuration: '7.3s', animationDelay: '2.5s' }} />
           <Database className="absolute bottom-[7%] left-[48%] w-10 h-10 text-primary-glow opacity-15 animate-float" 
                     style={{ animationDuration: '6.9s', animationDelay: '1.4s' }} />
-          <Atom className="absolute bottom-[12%] right-[25%] w-14 h-14 text-primary opacity-15 animate-float" 
+          <Atom className="absolute bottom-[12%] right-[25%] w-14 h-14 text-secondary opacity-15 animate-float" 
                 style={{ animationDuration: '8.5s', animationDelay: '3.2s' }} />
         </div>
 
