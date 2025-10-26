@@ -75,27 +75,6 @@ const experiences = [
 ];
 
 const Experience = () => {
-  const getGradientColor = (index: number, total: number) => {
-    const progress = index / (total - 1); // 0 to 1
-    
-    // Define color stops: warm peach → sage green → lavender
-    if (progress < 0.5) {
-      // First half: peach to sage green
-      const localProgress = progress * 2; // 0 to 1
-      const hue = 20 + (150 - 20) * localProgress;
-      const saturation = 60 - (60 - 25) * localProgress;
-      const lightness = 75 - (75 - 65) * localProgress;
-      return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
-    } else {
-      // Second half: sage green to lavender
-      const localProgress = (progress - 0.5) * 2; // 0 to 1
-      const hue = 150 + (260 - 150) * localProgress;
-      const saturation = 25 + (30 - 25) * localProgress;
-      const lightness = 65 + (75 - 65) * localProgress;
-      return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
-    }
-  };
-
   return (
     <PageLayout>
       <section className="py-20 px-4 sm:px-6 lg:px-8">
@@ -123,41 +102,25 @@ const Experience = () => {
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   {/* Timeline dot */}
-                  <div 
-                    className="hidden md:flex absolute -left-16 top-8 w-12 h-12 rounded-2xl items-center justify-center"
-                    style={{ background: getGradientColor(index, experiences.length) }}
-                  >
-                    <Briefcase className="h-6 w-6 text-white" />
+                  <div className="hidden md:flex absolute -left-16 top-8 w-12 h-12 rounded-2xl bg-primary-light items-center justify-center">
+                    <Briefcase className="h-6 w-6 text-primary" />
                   </div>
 
                   <div className="flex items-start gap-4 mb-2">
-                    <div 
-                      className="md:hidden flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center"
-                      style={{ background: getGradientColor(index, experiences.length) }}
-                    >
-                      <Briefcase className="h-5 w-5 text-white" />
+                    <div className="md:hidden flex-shrink-0 w-10 h-10 rounded-xl bg-primary-light flex items-center justify-center">
+                      <Briefcase className="h-5 w-5 text-primary" />
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-serif font-bold mb-1">{exp.title}</h3>
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mb-4">
-                        <span 
-                          className="font-medium"
-                          style={{ 
-                            background: `linear-gradient(135deg, ${getGradientColor(index, experiences.length)}, ${getGradientColor(Math.min(index + 1, experiences.length - 1), experiences.length)})`,
-                            WebkitBackgroundClip: 'text',
-                            WebkitTextFillColor: 'transparent',
-                            backgroundClip: 'text'
-                          }}
-                        >
-                          {exp.organization}
-                        </span>
+                        <span className="text-primary font-medium">{exp.organization}</span>
                         <span className="hidden sm:inline text-muted-foreground">•</span>
                         <span className="text-muted-foreground text-sm">{exp.period}</span>
                       </div>
                       <ul className="space-y-2 text-muted-foreground">
                         {exp.bulletPoints.map((point, pointIndex) => (
                           <li key={pointIndex} className="flex items-baseline gap-2">
-                            <span style={{ color: getGradientColor(index, experiences.length) }}>•</span>
+                            <span className="text-primary">•</span>
                             <span className="leading-relaxed">{point}</span>
                           </li>
                         ))}
