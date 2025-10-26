@@ -95,7 +95,7 @@ const Skills = () => {
           <div className="grid gap-8 animate-fade-in">
             {/* Technical Skills */}
             <div 
-              className="p-6 rounded-3xl bg-gradient-to-br from-primary/8 to-primary/15 border border-primary/15"
+              className="p-6 rounded-3xl bg-gradient-to-br from-primary/12 to-primary/20 border border-primary/18"
               style={{ animationDelay: "0ms" }}
             >
               <div className="flex items-center gap-3 mb-2">
