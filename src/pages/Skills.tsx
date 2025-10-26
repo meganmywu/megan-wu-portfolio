@@ -55,7 +55,8 @@ const skills = {
     { name: "Policy Analysis" },
     { name: "Workflow Optimization & Evaluation" },
     { name: "Patient & Client Communication" },
-    { name: "Project Coordination & Stakeholder Engagement" },
+    { name: "Project Coordination" },
+    { name: "Stakeholder Engagement" },
     { name: "Written & Verbal Communication" },
   ],
   transferable: [
