@@ -21,7 +21,7 @@ const Home = () => {
                     style={{ animationDuration: '8s', animationDelay: '1.2s' }} />
           
           {/* Left side icons */}
-          <Atom className="absolute top-[30%] left-[7%] w-16 h-16 text-primary-glow opacity-20 animate-float" 
+          <Atom className="absolute top-[30%] left-[7%] w-12 h-12 text-primary-glow opacity-20 animate-float" 
                 style={{ animationDuration: '7.3s', animationDelay: '2.5s' }} />
           <Heart className="absolute top-[55%] left-[9%] w-12 h-12 text-secondary opacity-25 animate-float" 
                 style={{ animationDuration: '7.5s', animationDelay: '2.8s' }} />
