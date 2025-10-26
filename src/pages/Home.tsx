@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { ArrowRight, Sparkles, Target, BadgeCheck, MessageCircle, Activity, Database, Atom } from "lucide-react";
+import { ArrowRight, Sparkles, Target, BadgeCheck, MessageCircle, Activity, Database, Atom, Monitor, Percent, Heart, Plus, Stethoscope } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
 
 const Home = () => {
@@ -12,18 +12,26 @@ const Home = () => {
         
         {/* Floating Background Icons */}
         <div className="absolute inset-0 pointer-events-none">
-          <Activity className="absolute top-[15%] left-[10%] w-16 h-16 text-primary opacity-10 animate-float" 
+          <Activity className="absolute top-[8%] left-[5%] w-16 h-16 text-primary opacity-10 animate-float" 
                     style={{ animationDuration: '6s', animationDelay: '0s' }} />
-          <Database className="absolute top-[25%] right-[15%] w-12 h-12 text-accent opacity-15 animate-float" 
+          <Database className="absolute top-[12%] right-[8%] w-12 h-12 text-accent opacity-15 animate-float" 
                     style={{ animationDuration: '8s', animationDelay: '1s' }} />
-          <Atom className="absolute bottom-[30%] left-[20%] w-14 h-14 text-secondary opacity-12 animate-float" 
+          <Atom className="absolute bottom-[25%] left-[3%] w-14 h-14 text-secondary opacity-12 animate-float" 
                 style={{ animationDuration: '7s', animationDelay: '2s' }} />
-          <Activity className="absolute bottom-[20%] right-[25%] w-10 h-10 text-primary opacity-10 animate-float" 
+          <Monitor className="absolute top-[35%] left-[6%] w-10 h-10 text-primary opacity-10 animate-float" 
                     style={{ animationDuration: '9s', animationDelay: '0.5s' }} />
-          <Database className="absolute top-[40%] left-[8%] w-8 h-8 text-accent opacity-15 animate-float" 
+          <Percent className="absolute top-[50%] left-[4%] w-8 h-8 text-accent opacity-15 animate-float" 
                     style={{ animationDuration: '7.5s', animationDelay: '1.5s' }} />
-          <Atom className="absolute top-[60%] right-[12%] w-12 h-12 text-secondary opacity-12 animate-float" 
+          <Heart className="absolute bottom-[15%] left-[7%] w-12 h-12 text-destructive opacity-12 animate-float" 
                 style={{ animationDuration: '8.5s', animationDelay: '3s' }} />
+          <Plus className="absolute top-[20%] right-[6%] w-14 h-14 text-secondary opacity-10 animate-float" 
+                style={{ animationDuration: '6.5s', animationDelay: '2.5s' }} />
+          <Stethoscope className="absolute bottom-[30%] right-[5%] w-11 h-11 text-primary opacity-15 animate-float" 
+                      style={{ animationDuration: '8s', animationDelay: '1.2s' }} />
+          <Database className="absolute bottom-[10%] right-[9%] w-9 h-9 text-accent opacity-10 animate-float" 
+                    style={{ animationDuration: '7s', animationDelay: '0.8s' }} />
+          <Atom className="absolute top-[65%] right-[7%] w-13 h-13 text-secondary opacity-12 animate-float" 
+                style={{ animationDuration: '9.5s', animationDelay: '3.5s' }} />
         </div>
 
         <div className="relative max-w-5xl mx-auto text-center animate-fade-in-up">
