@@ -13,31 +13,31 @@ const Home = () => {
         {/* Floating Background Icons */}
         <div className="absolute inset-0 pointer-events-none">
           {/* Top edge icons */}
-          <Activity className="absolute top-[8%] left-[15%] w-12 h-12 gradient-text opacity-12 animate-float" 
+          <Activity className="absolute top-[8%] left-[18%] w-13 h-13 gradient-icon opacity-13 animate-float" 
                     style={{ animationDuration: '6.5s', animationDelay: '0s' }} />
-          <Plus className="absolute top-[6%] left-[45%] w-11 h-11 gradient-text opacity-11 animate-float" 
+          <Plus className="absolute top-[5%] right-[35%] w-12 h-12 gradient-icon opacity-11 animate-float" 
                 style={{ animationDuration: '7.2s', animationDelay: '2.1s' }} />
-          <Database className="absolute top-[10%] right-[18%] w-12 h-12 gradient-text opacity-13 animate-float" 
+          <Database className="absolute top-[9%] right-[15%] w-13 h-13 gradient-icon opacity-12 animate-float" 
                     style={{ animationDuration: '8s', animationDelay: '1.2s' }} />
           
           {/* Left side icons */}
-          <Monitor className="absolute top-[35%] left-[6%] w-11 h-11 gradient-text opacity-10 animate-float" 
+          <Monitor className="absolute top-[30%] left-[7%] w-12 h-12 gradient-icon opacity-11 animate-float" 
                     style={{ animationDuration: '8.8s', animationDelay: '1.6s' }} />
-          <Heart className="absolute top-[58%] left-[8%] w-12 h-12 gradient-text opacity-12 animate-float" 
+          <Heart className="absolute top-[55%] left-[9%] w-13 h-13 gradient-icon opacity-13 animate-float" 
                 style={{ animationDuration: '7.5s', animationDelay: '2.8s' }} />
           
           {/* Right side icons */}
-          <Stethoscope className="absolute top-[32%] right-[7%] w-15 h-15 gradient-text opacity-13 animate-float" 
+          <Stethoscope className="absolute top-[28%] right-[8%] w-16 h-16 gradient-icon opacity-13 animate-float" 
                       style={{ animationDuration: '8.2s', animationDelay: '0.8s' }} />
-          <Percent className="absolute top-[55%] right-[9%] w-11 h-11 gradient-text opacity-11 animate-float" 
+          <Percent className="absolute top-[52%] right-[10%] w-12 h-12 gradient-icon opacity-12 animate-float" 
                     style={{ animationDuration: '7.8s', animationDelay: '1.9s' }} />
           
           {/* Bottom edge icons */}
-          <Atom className="absolute bottom-[12%] left-[20%] w-15 h-15 gradient-text opacity-14 animate-float" 
+          <Atom className="absolute bottom-[10%] left-[22%] w-16 h-16 gradient-icon opacity-14 animate-float" 
                 style={{ animationDuration: '7.3s', animationDelay: '2.5s' }} />
-          <Database className="absolute bottom-[8%] left-[50%] w-10 h-10 gradient-text opacity-10 animate-float" 
+          <Database className="absolute bottom-[7%] left-[48%] w-11 h-11 gradient-icon opacity-11 animate-float" 
                     style={{ animationDuration: '6.9s', animationDelay: '1.4s' }} />
-          <Atom className="absolute bottom-[14%] right-[22%] w-14 h-14 gradient-text opacity-12 animate-float" 
+          <Atom className="absolute bottom-[12%] right-[25%] w-15 h-15 gradient-icon opacity-13 animate-float" 
                 style={{ animationDuration: '8.5s', animationDelay: '3.2s' }} />
         </div>
 

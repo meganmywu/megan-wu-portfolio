@@ -139,6 +139,10 @@ All colors MUST be HSL.
   .gradient-text {
     @apply bg-gradient-to-r from-primary to-secondary-accent bg-clip-text text-transparent;
   }
+
+  .gradient-icon {
+    @apply bg-gradient-to-br from-primary via-primary-glow to-secondary bg-clip-text text-transparent;
+  }
 }
 
 @keyframes fadeInUp {
