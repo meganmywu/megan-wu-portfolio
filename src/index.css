@@ -26,7 +26,7 @@ All colors MUST be HSL.
 
     /* Soft lavender secondary */
     --secondary: 260 30% 85%;
-    --secondary-foreground: 220 15% 20%;
+    --secondary-foreground: 260 50% 30%;
     --secondary-accent: 260 35% 75%;
 
     /* Muted warm grays */
