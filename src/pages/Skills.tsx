@@ -102,7 +102,7 @@ const Skills = () => {
                 </div>
                 <h2 className="text-3xl font-serif font-semibold">Technical Skills</h2>
               </div>
-              <div className="w-16 h-1 bg-primary/40 rounded-full mb-6 ml-[60px]"></div>
+              <div className="w-16 h-1 bg-primary/10 rounded-full mb-6 ml-[60px]"></div>
               
               <div className="space-y-4">
                 {Object.values(skills.technical).map((category, catIndex) => (
