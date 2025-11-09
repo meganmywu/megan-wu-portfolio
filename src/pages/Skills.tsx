@@ -186,7 +186,7 @@ const Skills = () => {
               </div>
                 <h2 className="text-3xl font-serif font-semibold">Languages</h2>
               </div>
-              <div className="w-16 h-1 bg-foreground/40 rounded-full mb-6 ml-[60px]"></div>
+              <div className="w-16 h-1 bg-foreground/10 rounded-full mb-6 ml-[60px]"></div>
               
               <div className="flex flex-wrap gap-2">
                 {skills.languages.map((skill, index) => (
