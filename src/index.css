@@ -35,7 +35,7 @@ All colors MUST be HSL.
 
     /* Warm peach accent */
     --accent: 20 60% 85%;
-    --accent-foreground: 220 15% 20%;
+    --accent-foreground: 20 65% 30%;
     --accent-warm: 20 65% 75%;
 
     --destructive: 0 70% 60%;
