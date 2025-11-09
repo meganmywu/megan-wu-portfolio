@@ -161,7 +161,7 @@ const Skills = () => {
               </div>
                 <h2 className="text-3xl font-serif font-semibold">Transferable Skills</h2>
               </div>
-              <div className="w-16 h-1 bg-accent/60 rounded-full mb-6 ml-[60px]"></div>
+              <div className="w-16 h-1 bg-accent-foreground/60 rounded-full mb-6 ml-[60px]"></div>
               
               <div className="flex flex-wrap gap-2">
                 {skills.transferable.map((skill, index) => (
