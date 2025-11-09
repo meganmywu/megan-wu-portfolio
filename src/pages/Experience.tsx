@@ -3,7 +3,7 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    title: "Medical Receptionist",
+    title: "Medical Office Assistant",
     organization: "Whole Health Medical Center",
     period: "Sep 2025 – Present",
     bulletPoints: [
