@@ -41,7 +41,7 @@ const About = () => {
                 <div>
                   <h2 className="text-2xl font-serif font-bold mb-2">Hands-On Experience</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    Alongside my academic projects, I work as a Medical Receptionist at Whole Health Medical 
+                    Alongside my academic projects, I work as a Medical Office Assistant at Whole Health Medical 
                     Center, where I support clinic operations through EMR management, patient registration, and 
                     scheduling. This frontline experience allows me to see first-hand how digital systems like 
                     EMRs impact patient care, workflow efficiency, and staff coordination—insights I bring into 
