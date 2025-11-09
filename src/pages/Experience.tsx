@@ -7,9 +7,9 @@ const experiences = [
     organization: "Whole Health Medical Center",
     period: "Sep 2025 – Present",
     bulletPoints: [
-      "Manage patient intake, scheduling, billing, and documentation using Accuro EMR, while handling phone, email, and in-person communications professionally",
-      "Support physicians during patient visits by taking vital signs (height, weight, blood pressure), performing urine and pregnancy tests, and preparing exam rooms and vaccine trays",
-      "Coordinate referrals, process faxes and medical forms, and ensure exam rooms and supplies are maintained to support efficient clinical workflow"
+      "Manage patient intake, scheduling, billing, and documentation using Accuro EMR, while handling phone, email, and in-person communication professionally",
+      "Support physicians by taking patient vital signs, assisting with routine point-of-care testing, and preparing exam rooms",
+      "Coordinate referrals, process faxes and medical forms, and maintain supplies to ensure efficient clinical workflow"
     ]
   },
   {
