@@ -7,9 +7,9 @@ const experiences = [
     organization: "Whole Health Medical Center",
     period: "Sep 2025 – Present",
     bulletPoints: [
-      "Provide front desk and administrative support using Accuro EMR, including scheduling, patient registration, and document management",
-      "Manage phone, email, and in-person communications while maintaining organized records to ensure efficient clinic operations",
-      "Maintain accurate records and prepare documentation to ensure efficient operations in a fast-paced clinical environment"
+      "Manage patient intake, scheduling, billing, and documentation using Accuro EMR, while handling phone, email, and in-person communications professionally",
+      "Support physicians during patient visits by taking vital signs (height, weight, blood pressure), performing urine and pregnancy tests, and preparing exam rooms and vaccine trays",
+      "Coordinate referrals, process faxes and medical forms, and ensure exam rooms and supplies are maintained to support efficient clinical workflow"
     ]
   },
   {
