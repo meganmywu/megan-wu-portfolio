@@ -1,6 +1,6 @@
 import PageLayout from "@/components/PageLayout";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Users, Map, FileText, Smartphone } from "lucide-react";
+import { Users, Map, FileText, Smartphone, Bot, Building2 } from "lucide-react";
 
 const projects = [
   {
@@ -46,6 +46,26 @@ const projects = [
     icon: Smartphone,
     color: "bg-accent-warm",
     iconColor: "text-accent-foreground"
+  },
+  {
+    title: "Health System Transformation – AI Scribe Implementation",
+    bulletPoints: [
+      "Analyzed orthopedic clinic workflows to identify documentation bottlenecks contributing to after-hours charting and clinician fatigue",
+      "Designed an AI scribe–enabled future-state workflow with governance and evaluation plans, projecting reduced documentation backlog and improved same-day chart completion"
+    ],
+    icon: Bot,
+    color: "bg-secondary",
+    iconColor: "text-secondary-foreground"
+  },
+  {
+    title: "AI Policy Framework for Provincial Diabetes Prevention",
+    bulletPoints: [
+      "Developed a macro-level policy framework for an EMR-integrated AI diabetes risk prediction system, addressing data fragmentation, inconsistent monitoring, and system-level inequities",
+      "Defined stakeholder roles, governance structures, funding mechanisms, interoperability requirements, and digital tools needed for province-wide AI-enabled prevention"
+    ],
+    icon: Building2,
+    color: "bg-primary-light",
+    iconColor: "text-primary"
   }
 ];
 
