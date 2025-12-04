@@ -31,8 +31,8 @@ const projects = [
       "Highlighted how informatics-driven design can enhance wellbeing and social connection in academic settings"
     ],
     icon: Users,
-    color: "bg-primary-light",
-    iconColor: "text-primary"
+    color: "bg-accent",
+    iconColor: "text-accent-foreground"
   },
   {
     title: "Geospatial Analysis of Hypertension Inequities",
@@ -53,8 +53,8 @@ const projects = [
       "Addressed ethical considerations (privacy, cost, and funding constraints) showing how digital policy interventions can advance equity"
     ],
     icon: FileText,
-    color: "bg-accent",
-    iconColor: "text-accent-foreground"
+    color: "bg-primary-light",
+    iconColor: "text-primary"
   },
   {
     title: "Maternal mHealth App Proposal",
