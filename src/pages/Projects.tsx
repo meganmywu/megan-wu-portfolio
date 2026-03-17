@@ -1,6 +1,6 @@
 import PageLayout from "@/components/PageLayout";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Users, Map, FileText, Smartphone, Bot, Building2 } from "lucide-react";
+import { Users, Map, FileText, Smartphone, Bot, Building2, Heart } from "lucide-react";
 
 const projects = [
   {
