@@ -4,6 +4,17 @@ import { Users, Map, FileText, Smartphone, Bot, Building2, Heart } from "lucide-
 
 const projects = [
   {
+    title: "Compassionate Data Donation Prototype (MindShare)",
+    bulletPoints: [
+      "Co-designed and prototyped \u201cMindShare\u201d in Figma, a digital well-being app that provides personalized habit insights and coping tools, allowing users to securely donate anonymized social media data for health research",
+      "Conducted a mixed-method user needs assessment (n=15) using semi-structured interviews and clinical scales (BSMAS, GAD-7, PHQ-8), analyzed via PSPP (ANOVA, t-tests) and NVivo (thematic coding) to develop targeted user personas",
+      "Ensured strict REB ethical compliance by stripping personally identifiable information and formally handing over the anonymized dataset to the research lead at CAMH for future academic dissemination"
+    ],
+    icon: Heart,
+    color: "bg-accent",
+    iconColor: "text-accent-foreground"
+  },
+  {
     title: "Health System Transformation – AI Scribe Implementation",
     bulletPoints: [
       "Analyzed orthopedic clinic workflows to identify documentation bottlenecks contributing to after-hours charting and clinician fatigue",
