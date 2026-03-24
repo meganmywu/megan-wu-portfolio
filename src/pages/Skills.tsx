@@ -10,6 +10,7 @@ const skills = {
       skills: [
         { name: "SAS" },
         { name: "R" },
+        { name: "Altair AI Studio (RapidMiner)" },
         { name: "Microsoft Excel" }
       ]
     },
