@@ -1,8 +1,17 @@
-
-
-## Plan: Add Altair AI Studio to Technical Skills
+## Plan: Add Power Automate + Atlassian to Technical Skills
 
 **File:** `src/pages/Skills.tsx`
 
-Add `{ name: "Altair AI Studio (RapidMiner)" }` to the `dataAnalysis.skills` array in the "Data & Analysis" category, alongside SAS, R, and Microsoft Excel.
+Update the `toolsPlatforms.skills` array under "Tools & Platforms" from:
 
+```text
+Microsoft Office, Google Workspace, Zoom, Slack, Social Media
+```
+
+to:
+
+```text
+Microsoft Office, Google Workspace, Zoom, Slack, Social Media, Power Automate, Atlassian (Jira & Confluence)
+```
+
+Two new badges added, both under the existing "Tools & Platforms" category. No new categories, no other changes.
