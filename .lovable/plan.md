@@ -1,17 +1,27 @@
-## Plan: Add Power Automate + Atlassian to Technical Skills
+## Plan: Add Power Automate, Atlassian, and Kipu to Technical Skills
 
 **File:** `src/pages/Skills.tsx`
 
-Update the `toolsPlatforms.skills` array under "Tools & Platforms" from:
+Three edits to the `skills` object:
 
-```text
-Microsoft Office, Google Workspace, Zoom, Slack, Social Media
-```
+1. **EMR category rename + add Kipu** — change the `emr.label` from:
+   ```
+   "Electronic Medical Records (EMR)"
+   ```
+   to:
+   ```
+   "Electronic Health & Medical Records (EHR/EMR)"
+   ```
+   and add `{ name: "Kipu" }` to the `emr.skills` array (alongside Accuro EMR).
 
-to:
+2. **Add Power Automate** to `toolsPlatforms.skills` (under "Tools & Platforms"):
+   ```
+   { name: "Power Automate" }
+   ```
 
-```text
-Microsoft Office, Google Workspace, Zoom, Slack, Social Media, Power Automate, Atlassian (Jira & Confluence)
-```
+3. **Add Atlassian** to `toolsPlatforms.skills` as a single grouped badge:
+   ```
+   { name: "Atlassian (Jira & Confluence)" }
+   ```
 
-Two new badges added, both under the existing "Tools & Platforms" category. No new categories, no other changes.
+No new categories, no other sections changed.
