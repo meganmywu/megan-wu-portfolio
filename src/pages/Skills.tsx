@@ -21,9 +21,10 @@ const skills = {
       ]
     },
     emr: {
-      label: "Electronic Medical Records (EMR)",
+      label: "Electronic Health & Medical Records (EHR/EMR)",
       skills: [
-        { name: "Accuro EMR" }
+        { name: "Accuro EMR" },
+        { name: "Kipu" }
       ]
     },
     gis: {
@@ -40,7 +41,9 @@ const skills = {
         { name: "Google Workspace" },
         { name: "Zoom" },
         { name: "Slack" },
-        { name: "Social Media" }
+        { name: "Social Media" },
+        { name: "Power Automate" },
+        { name: "Atlassian (Jira & Confluence)" }
       ]
     },
     webDesign: {
